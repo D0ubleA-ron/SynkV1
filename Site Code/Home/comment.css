@@ -1,0 +1,129 @@
+.commentPost {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #F7F6C5;
+}
+.comment {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #F7F6C5;
+}
+
+.post-container{
+    height: 715px;
+    padding: 20px;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    overflow-y: scroll;
+    background-color: #313131;
+
+}
+
+.comment-container{
+    height: 100px;
+    padding: 20px;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    overflow-y: scroll;
+    background-color: #313131;
+
+}
+
+body{
+    background-color: #F7F6C5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.synklogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F7F6C5;
+    font-weight: bold;
+}
+li a {
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: #F7F6C5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+li a:hover {
+    background-color: #313131;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FE5F55;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    margin-left: 2rem;
+    height: 100%;
+    line-height: 2rem;
+}
+input[type="text"], textarea {
+    border: none;
+    border-bottom: solid 1px #313131;
+    background-color: #313131;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+
+}
+
+input::placeholder {
+    font-family: 'Roboto Mono', monospace;
+    color: #F7F6C5;
+    font-size: 32px;
+}
+
+textarea::placeholder{
+    font-family: 'Roboto Mono', monospace;
+    color: #F7F6C5;
+    font-size: 32px;
+}
+
+input{
+    font-family: 'Roboto Mono', monospace;
+    color: #F7F6C5;
+    font-size: 32px;
+}
+
+textarea{
+    font-family: 'Roboto Mono', monospace;
+    color: #F7F6C5;
+    font-size: 32px;
+    position: absolute;
+    bottom: -30px;
+    right: 50px;
+    width: calc(100% - 6%);
+}
+
+.post-container {
+    position: relative;
+}
+
+.postForm{
+    right:10px;
+}

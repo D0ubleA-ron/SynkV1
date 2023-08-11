@@ -1,0 +1,161 @@
+.post {
+    border: 1px solid #ccc;
+    padding-right: 60px;
+    margin-bottom: 10px;
+    background-color: #F7F6C5;
+}
+
+.post-container{
+    height: 715px;
+    padding: 20px;
+    margin-top: 5rem;
+    margin-left: 22rem;
+    margin-right: 5rem;
+    margin-bottom: 20rem;
+    overflow-y: scroll;
+    background-color: #313131;
+    width: 900px;
+
+}
+
+body{
+    background-color: #F7F6C5;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+
+}
+h4{
+    font-weight: normal;
+}
+
+.img-class{
+    height: 17px;
+    width: 17px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+}
+
+
+
+.col-md-4{
+    flex: 1;
+    margin-top: 5rem;
+    width: 10%;
+    background-color: #313131;
+    color: #FCFCFC;
+    z-index: 10;
+
+}
+
+figcaption {
+    padding-left: 5rem;
+}
+
+h3{
+    padding-left: 2rem;
+}
+.synklogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F7F6C5;
+    font-weight: bold;
+}
+li a {
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+    color: #F7F6C5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+li a:hover {
+    background-color: #313131;
+}
+.abselement{
+    position: absolute;
+    color: #F7F6C5;
+    font-family: 'Roboto Mono', monospace;
+    top: 28em;
+    left: 8.5em;
+    font-size: 0.7em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FE5F55;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.search::placeholder {
+    color: white;
+}
+
+li {
+    float: left;
+    margin-left: 2em;
+    height: 100%;
+    line-height: 2em;
+}
+
+.create-post-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.spotify-container {
+    position: fixed;
+    top: 0;
+    left: 1em;
+    width: 300px;
+    height: 690px;
+    background-color: #313131;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 5.0rem;
+    overflow-y: scroll;
+}
+
+iframe {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 15em;
+    height: 5000em;
+}
+
+input::placeholder {
+    font-family: 'Roboto Mono', monospace;
+    color: #F7F6C5;
+    font-size: 16px;
+}
+
+
+
+
+

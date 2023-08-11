@@ -1,0 +1,117 @@
+body{
+    background-color: #F7F6C5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: #F7F6C5;
+
+}
+#rectangle {
+    width: 28rem;
+    height: 35rem;
+    background-color: #313131;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -15rem;
+    margin-left: -14rem;
+}
+
+#rectangle p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2rem;
+    color: #F7F6C5;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 2.5rem;
+    margin-left: 6rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+input{
+    width: 15rem;
+    height: 2.5rem;
+    text-align: left;
+    background-color: #F7F6C5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#rectangle #CreateAccount {
+    font-size: 15px;
+    margin-right: 8.5rem;
+    margin-top: 3rem;
+}
+
+button{
+    background-color: transparent;
+    outline: none;
+    border: 0 none;
+    position: absolute;
+    top: 22rem;
+    left: 9rem;
+}
+
+#usernameError{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.abselement{
+    position: absolute;
+    color: #F7F6C5;
+    font-family: 'Roboto Mono', monospace;
+    top: 19rem;
+    left: 6rem;
+    font-size: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FE5F55;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    margin-left: 2rem;
+    height: 100%;
+    line-height: 2rem;
+}
+
+.synklogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F7F6C5;
+}
+li a {
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: #F7F6C5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+li a:hover {
+    background-color: #313131;
+}
+

@@ -1,0 +1,115 @@
+body{
+    background-color: #F7F6C5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: #F7F6C5;
+
+}
+#rectangle {
+    width: 86em;
+    height: 44em;
+    background-color: #313131;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20em;
+    margin-left: -43em;
+}
+
+#rectangle p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1em;
+    color: #F7F6C5;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 2.5em;
+    margin-left: 6em;
+    margin-top: 5em;
+    text-align: center;
+}
+
+input{
+    width: 18em;
+    height: 2.5em;
+    text-align: left;
+    background-color: #F7F6C5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#rectangle #CreateAccount {
+    font-size: 15px;
+    margin-right: 8.5em;
+    margin-top: 3em;
+}
+
+button{
+    background-color: transparent;
+    outline: none;
+    border: 0 none;
+    position: absolute;
+    top: 27em;
+    left: 10em;
+}
+
+#usernameError{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.abselement{
+    position: absolute;
+    color: #F7F6C5;
+    font-family: 'Roboto Mono', monospace;
+    top: 28em;
+    left: 8.5em;
+    font-size: 0.7em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FE5F55;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    margin-left: 2em;
+    height: 100%;
+    line-height: 2em;
+}
+
+.synklogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23pt;
+    font-weight: bold;
+}
+li a {
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+    color: #F7F6C5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+li a:hover {
+    background-color: #313131;
+}
+
